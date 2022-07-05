@@ -158,12 +158,13 @@
     padding: 10px;
     box-shadow: 10px 10px 30px 2px rgb(155, 130, 130);
     transition: all 0.5s;
+
     
 
 }
 .card:hover{
     transform: rotate(10deg);
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .card img {
@@ -176,6 +177,7 @@
 }
 .card div{
     padding: 10px;
+    
 }
 
 /* *** section 3 *** */
@@ -193,10 +195,26 @@
     width: 70%;
     box-shadow: 10px 10px 15px gray;
     border-radius: 20px;
+    
 
 }
-.sec-3-div:hover{
-    cursor: pointer;
-    border: 2px solid red;
-}
 
+/* *** section footer *** */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    color: white;
+}
+footer h1{
+    font-size: 50px;
+    margin: 5px 0px;
+}
+footer p{
+    font-size: 15px;
+}
